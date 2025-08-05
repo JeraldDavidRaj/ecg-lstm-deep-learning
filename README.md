@@ -9,6 +9,7 @@ The objective is to perform heartbeat classification and improve model accuracy 
 ---
 
 ## 📁 Project Structure
+
 ecg-lstm-deep-learning/
 │
 ├── data/ # Contains CSV ECG datasets (not included in repo)
