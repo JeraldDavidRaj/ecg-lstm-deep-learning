@@ -13,8 +13,10 @@ def create_model(input_shape, num_classes):
     model.add(Dropout(0.2))
     model.add(Dense(num_classes, activation='softmax'))
 
-    model.compile(loss='sparse_categorical_crossentropy',
+    model.compile(loss='categorical_crossentropy',
                   optimizer=Adam(learning_rate=0.001),
                   metrics=['accuracy'])
 
     return model
+
+
