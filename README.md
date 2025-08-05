@@ -10,27 +10,28 @@ The objective is to perform heartbeat classification and improve model accuracy 
 
 ## 📁 Project Structure
 
+```
 ecg-lstm-deep-learning/
 │
-├── data/ # Contains CSV ECG datasets (not included in repo)
+├── data/                         # Contains CSV ECG datasets (not included in repo)
 ├── notebooks/
-│ └── ECG_LSTM.ipynb # Jupyter Notebook for exploration and result visualization
+│   └── ECG_LSTM.ipynb            # Jupyter Notebook for exploration and result visualization
 ├── results/
-│ ├── metrics/
-│ │ ├── accuracy.txt
-│ │ └── classification_report.txt
-│ └── plots/
-│ ├── beat_class_distribution_piechart.png
-│ ├── sample_ecg_signal_1.png
-│ └── sample_ecg_signals_grid.png
+│   ├── metrics/
+│   │   ├── accuracy.txt
+│   │   └── classification_report.txt
+│   └── plots/
+│       ├── beat_class_distribution_piechart.png
+│       ├── sample_ecg_signal_1.png
+│       └── sample_ecg_signals_grid.png
 ├── src/
-│ ├── init.py
-│ ├── model.py # Builds the LSTM model
-│ ├── preprocessing.py # Data loading and preprocessing
-│ ├── train.py # Model training script
-│ └── evaluate.py # Evaluation script (accuracy, report, confusion matrix)
-└── main.py # Main pipeline to train and evaluate model
-
+│   ├── __init__.py
+│   ├── model.py                 # Builds the LSTM model
+│   ├── preprocessing.py        # Data loading and preprocessing
+│   ├── train.py                # Model training script
+│   └── evaluate.py             # Evaluation script (accuracy, report, confusion matrix)
+└── main.py                     # Main pipeline to train and evaluate model
+```
 
 ## 📊 Dataset
 
