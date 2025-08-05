@@ -104,9 +104,11 @@ Real-time ECG streaming support
 Experiment with 1D CNNs
 
 🤝 Contribution
+
 Contributions are welcome! Please feel free to fork this repo and submit a pull request.
 
 📜 License
+
 This project is licensed under the MIT License.
 
 ## 📬 Contact
